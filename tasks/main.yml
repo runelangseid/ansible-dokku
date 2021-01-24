@@ -22,6 +22,7 @@
 - name: dokku plugin:list
   command: dokku plugin:list
   changed_when: false
+  check_mode: no
   register: installed_dokku_plugins
   tags:
   - dokku
